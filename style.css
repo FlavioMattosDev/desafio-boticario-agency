@@ -1,0 +1,273 @@
+/* -----===== GERAL =====-----*/
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 1.6rem;
+    font-family: 'Golos Text', sans-serif;
+}
+
+body h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+body p {
+    color: #565656;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation__main {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.home__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9.5rem;
+    padding-bottom: 13.6rem;
+    padding-left: 16rem;
+}
+
+.home__col__a {
+    display: flex;
+    flex-direction: column;
+    gap: 4.2rem;
+}
+
+.home__col__a a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 6rem;
+    background-color: #2639ED;
+    width: 20.9rem;
+    height: 6.3rem;
+}
+
+.home__col__b img {
+    margin-right: 0;
+    width: 75.4rem;
+    height: 51.2rem;
+}
+
+.clients__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-bottom: 9.4rem;
+}
+
+.clients__col__b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.services__content {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14rem;
+}
+
+.services__all__cards {
+    display: flex;
+    gap: 3.4rem;
+}
+
+.services__col__b {
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.services__col__c {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.services__card {
+    width: 30.8rem;
+    height: 37.9rem;
+    background-color: hsla(0, 0%, 95%, 0.404);
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    gap: 3.1rem;
+}
+
+.services__card__a {
+    background-color: #F1F7FF;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+.services__card__b {
+    background-color: #FFF2F8;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+.services__card__c {
+    background-color: #FFF7E3;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+.services__card__d {
+    background-color: #DEFFEE;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+.foundation__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+    margin-bottom: 24rem;
+}
+
+.video__frame iframe {
+    border-radius: 2rem;
+}
+
+.foundation__col__b {
+    display: flex;
+    flex-direction: column;
+    gap: 3.4rem;
+}
+
+.newsletter__content {
+    background-color: #F4F9FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9rem;
+    border-radius: 7.5rem;
+    margin-bottom: 10rem;
+}
+
+.newsletter__col__b {
+    background-color: #FFFFFF;
+    padding: 1.5rem 2rem;
+    border-radius: 6rem;
+    display: flex;
+    gap: 6rem;
+}
+
+.newsletter__col__b .email {
+    color: #959595;
+    border: none;
+}
+
+.newsletter__col__b .btn {
+    color: #fff;
+    background-color: #2639ED;
+    padding: 2rem 4rem;
+    border: none;
+    border-radius: 6rem;
+}
+
+
+
+.footer__content {
+    padding: 6rem 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    gap: 19rem;
+
+}
+
+.footer__col__a {
+    width: 30rem;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.footer__col__b {
+    display: flex;
+    gap: 10rem;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: #000;
+    line-height: 200%;
+    flex-wrap: nowrap;
+}
+
+.footer__links h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2.6rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 0;
+    color: #A4A4A4;
+    margin: 0 auto;
+}
